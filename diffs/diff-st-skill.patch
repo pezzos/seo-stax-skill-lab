@@ -1,0 +1,36 @@
+diff --git a/.agents/skills/README.md b/.agents/skills/README.md
+index 1d14787..1040602 100644
+--- a/.agents/skills/README.md
++++ b/.agents/skills/README.md
+@@ -23,6 +23,8 @@ routing.
+ - `docs-review-product`: local multi-specialist review panels for `docs/01-product`.
+ - `autofix-coder`: pre-commit fallback quality-fix role.
+ - `update-docs-lite`: bootstrap-local legacy shortcut for concise traceability updates.
++- `seo-quick-wins`: offline SEO quick wins report for `pezzoslabs.com` from frozen
++  GA/GSC exports in `docs/seo-lab-data/`.
+ 
+ ## Global recommended skills
+ 
+diff --git a/src/pages/index.astro b/src/pages/index.astro
+index d5cae47..a418cd2 100644
+--- a/src/pages/index.astro
++++ b/src/pages/index.astro
+@@ -174,16 +174,13 @@ const caseStudySections = [
+ 
+ <PublicSiteLayout
+   title="Automatisation, outils sur mesure et optimisation technique | Pezzos Labs"
+-  description="Automatisation, outils sur mesure et optimisation technique pour réduire le temps perdu, les coûts inutiles et la complexité opérationnelle."
++  description="labs de test avec skill et avec stax"
+   pathname="/"
+ >
+   <section class="hero-light public-home-opener">
+     <div class="hero-light__inner">
+       <p class="hero-light__eyebrow">SIMPLIFIER / AUTOMATISER / RENDRE RENTABLE</p>
+-      <h1>
+-        Je repère les frictions techniques qui coûtent cher et j'aide à les
+-        <span class="hero-light__word-glow">éliminer au bon endroit</span>.
+-      </h1>
++      <h1>Project Pezzos</h1>
+       <p>
+         J'identifie les pertes de temps, les coûts inutiles et les automatisations
+         utiles, puis je vous aide à agir là où le retour est clair.

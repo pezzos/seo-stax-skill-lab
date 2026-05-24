@@ -1,0 +1,23 @@
+diff --git a/src/pages/index.astro b/src/pages/index.astro
+index d5cae47..2b2ec64 100644
+--- a/src/pages/index.astro
++++ b/src/pages/index.astro
+@@ -174,16 +174,13 @@ const caseStudySections = [
+ 
+ <PublicSiteLayout
+   title="Automatisation, outils sur mesure et optimisation technique | Pezzos Labs"
+-  description="Automatisation, outils sur mesure et optimisation technique pour réduire le temps perdu, les coûts inutiles et la complexité opérationnelle."
++  description="labs de test sans skill et avec stax"
+   pathname="/"
+ >
+   <section class="hero-light public-home-opener">
+     <div class="hero-light__inner">
+       <p class="hero-light__eyebrow">SIMPLIFIER / AUTOMATISER / RENDRE RENTABLE</p>
+-      <h1>
+-        Je repère les frictions techniques qui coûtent cher et j'aide à les
+-        <span class="hero-light__word-glow">éliminer au bon endroit</span>.
+-      </h1>
++      <h1>Project Pezzos</h1>
+       <p>
+         J'identifie les pertes de temps, les coûts inutiles et les automatisations
+         utiles, puis je vous aide à agir là où le retour est clair.
